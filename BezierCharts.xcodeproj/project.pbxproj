@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		673589E51DEF78AE00502447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673589E41DEF78AE00502447 /* AppDelegate.swift */; };
+		673589E71DEF78AE00502447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673589E61DEF78AE00502447 /* ViewController.swift */; };
+		673589EA1DEF78AE00502447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673589E81DEF78AE00502447 /* Main.storyboard */; };
+		673589EC1DEF78AE00502447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673589EB1DEF78AE00502447 /* Assets.xcassets */; };
+		673589EF1DEF78AE00502447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673589ED1DEF78AE00502447 /* LaunchScreen.storyboard */; };
+		673589FA1DEF78AE00502447 /* BezierChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673589F91DEF78AE00502447 /* BezierChartsTests.swift */; };
+		67358A051DEF78AE00502447 /* BezierChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67358A041DEF78AE00502447 /* BezierChartsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		673589F61DEF78AE00502447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673589D91DEF78AE00502447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673589E01DEF78AE00502447;
+			remoteInfo = BezierCharts;
+		};
+		67358A011DEF78AE00502447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673589D91DEF78AE00502447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673589E01DEF78AE00502447;
+			remoteInfo = BezierCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		673589E11DEF78AE00502447 /* BezierCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		673589E41DEF78AE00502447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		673589E61DEF78AE00502447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		673589E91DEF78AE00502447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		673589EB1DEF78AE00502447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		673589EE1DEF78AE00502447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		673589F01DEF78AE00502447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673589F51DEF78AE00502447 /* BezierChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		673589F91DEF78AE00502447 /* BezierChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierChartsTests.swift; sourceTree = "<group>"; };
+		673589FB1DEF78AE00502447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67358A001DEF78AE00502447 /* BezierChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67358A041DEF78AE00502447 /* BezierChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierChartsUITests.swift; sourceTree = "<group>"; };
+		67358A061DEF78AE00502447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		673589DE1DEF78AE00502447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589F21DEF78AE00502447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589FD1DEF78AE00502447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		673589D81DEF78AE00502447 = {
+			isa = PBXGroup;
+			children = (
+				673589E31DEF78AE00502447 /* BezierCharts */,
+				673589F81DEF78AE00502447 /* BezierChartsTests */,
+				67358A031DEF78AE00502447 /* BezierChartsUITests */,
+				673589E21DEF78AE00502447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		673589E21DEF78AE00502447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				673589E11DEF78AE00502447 /* BezierCharts.app */,
+				673589F51DEF78AE00502447 /* BezierChartsTests.xctest */,
+				67358A001DEF78AE00502447 /* BezierChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673589E31DEF78AE00502447 /* BezierCharts */ = {
+			isa = PBXGroup;
+			children = (
+				673589E41DEF78AE00502447 /* AppDelegate.swift */,
+				673589E61DEF78AE00502447 /* ViewController.swift */,
+				673589E81DEF78AE00502447 /* Main.storyboard */,
+				673589EB1DEF78AE00502447 /* Assets.xcassets */,
+				673589ED1DEF78AE00502447 /* LaunchScreen.storyboard */,
+				673589F01DEF78AE00502447 /* Info.plist */,
+			);
+			path = BezierCharts;
+			sourceTree = "<group>";
+		};
+		673589F81DEF78AE00502447 /* BezierChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				673589F91DEF78AE00502447 /* BezierChartsTests.swift */,
+				673589FB1DEF78AE00502447 /* Info.plist */,
+			);
+			path = BezierChartsTests;
+			sourceTree = "<group>";
+		};
+		67358A031DEF78AE00502447 /* BezierChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67358A041DEF78AE00502447 /* BezierChartsUITests.swift */,
+				67358A061DEF78AE00502447 /* Info.plist */,
+			);
+			path = BezierChartsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		673589E01DEF78AE00502447 /* BezierCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67358A091DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierCharts" */;
+			buildPhases = (
+				673589DD1DEF78AE00502447 /* Sources */,
+				673589DE1DEF78AE00502447 /* Frameworks */,
+				673589DF1DEF78AE00502447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierCharts;
+			productName = BezierCharts;
+			productReference = 673589E11DEF78AE00502447 /* BezierCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		673589F41DEF78AE00502447 /* BezierChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67358A0C1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsTests" */;
+			buildPhases = (
+				673589F11DEF78AE00502447 /* Sources */,
+				673589F21DEF78AE00502447 /* Frameworks */,
+				673589F31DEF78AE00502447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673589F71DEF78AE00502447 /* PBXTargetDependency */,
+			);
+			name = BezierChartsTests;
+			productName = BezierChartsTests;
+			productReference = 673589F51DEF78AE00502447 /* BezierChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		673589FF1DEF78AE00502447 /* BezierChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67358A0F1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsUITests" */;
+			buildPhases = (
+				673589FC1DEF78AE00502447 /* Sources */,
+				673589FD1DEF78AE00502447 /* Frameworks */,
+				673589FE1DEF78AE00502447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67358A021DEF78AE00502447 /* PBXTargetDependency */,
+			);
+			name = BezierChartsUITests;
+			productName = BezierChartsUITests;
+			productReference = 67358A001DEF78AE00502447 /* BezierChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		673589D91DEF78AE00502447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nav Technologies";
+				TargetAttributes = {
+					673589E01DEF78AE00502447 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUB452GZP8;
+						ProvisioningStyle = Automatic;
+					};
+					673589F41DEF78AE00502447 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUB452GZP8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 673589E01DEF78AE00502447;
+					};
+					673589FF1DEF78AE00502447 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUB452GZP8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 673589E01DEF78AE00502447;
+					};
+				};
+			};
+			buildConfigurationList = 673589DC1DEF78AE00502447 /* Build configuration list for PBXProject "BezierCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 673589D81DEF78AE00502447;
+			productRefGroup = 673589E21DEF78AE00502447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673589E01DEF78AE00502447 /* BezierCharts */,
+				673589F41DEF78AE00502447 /* BezierChartsTests */,
+				673589FF1DEF78AE00502447 /* BezierChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673589DF1DEF78AE00502447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673589EF1DEF78AE00502447 /* LaunchScreen.storyboard in Resources */,
+				673589EC1DEF78AE00502447 /* Assets.xcassets in Resources */,
+				673589EA1DEF78AE00502447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589F31DEF78AE00502447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589FE1DEF78AE00502447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		673589DD1DEF78AE00502447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673589E71DEF78AE00502447 /* ViewController.swift in Sources */,
+				673589E51DEF78AE00502447 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589F11DEF78AE00502447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673589FA1DEF78AE00502447 /* BezierChartsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673589FC1DEF78AE00502447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67358A051DEF78AE00502447 /* BezierChartsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		673589F71DEF78AE00502447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673589E01DEF78AE00502447 /* BezierCharts */;
+			targetProxy = 673589F61DEF78AE00502447 /* PBXContainerItemProxy */;
+		};
+		67358A021DEF78AE00502447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673589E01DEF78AE00502447 /* BezierCharts */;
+			targetProxy = 67358A011DEF78AE00502447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		673589E81DEF78AE00502447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673589E91DEF78AE00502447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		673589ED1DEF78AE00502447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673589EE1DEF78AE00502447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67358A071DEF78AE00502447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67358A081DEF78AE00502447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67358A0A1DEF78AE00502447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67358A0B1DEF78AE00502447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		67358A0D1DEF78AE00502447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierCharts.app/BezierCharts";
+			};
+			name = Debug;
+		};
+		67358A0E1DEF78AE00502447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierCharts.app/BezierCharts";
+			};
+			name = Release;
+		};
+		67358A101DEF78AE00502447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BezierCharts;
+			};
+			name = Debug;
+		};
+		67358A111DEF78AE00502447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RUB452GZP8;
+				INFOPLIST_FILE = BezierChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.BezierChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BezierCharts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		673589DC1DEF78AE00502447 /* Build configuration list for PBXProject "BezierCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67358A071DEF78AE00502447 /* Debug */,
+				67358A081DEF78AE00502447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67358A091DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67358A0A1DEF78AE00502447 /* Debug */,
+				67358A0B1DEF78AE00502447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67358A0C1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67358A0D1DEF78AE00502447 /* Debug */,
+				67358A0E1DEF78AE00502447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67358A0F1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67358A101DEF78AE00502447 /* Debug */,
+				67358A111DEF78AE00502447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 673589D91DEF78AE00502447 /* Project object */;
+}

@@ -14,6 +14,10 @@
 		673589EF1DEF78AE00502447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673589ED1DEF78AE00502447 /* LaunchScreen.storyboard */; };
 		673589FA1DEF78AE00502447 /* BezierChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673589F91DEF78AE00502447 /* BezierChartsTests.swift */; };
 		67358A051DEF78AE00502447 /* BezierChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67358A041DEF78AE00502447 /* BezierChartsUITests.swift */; };
+		67358A131DEF79A300502447 /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67358A121DEF79A300502447 /* DonutView.swift */; };
+		676505581E0078B200E5F863 /* DonutSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676505571E0078B200E5F863 /* DonutSlice.swift */; };
+		676505971E00B8C300E5F863 /* SingleColorDonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676505961E00B8C300E5F863 /* SingleColorDonutView.swift */; };
+		676505991E00B8DF00E5F863 /* MultiColorDonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676505981E00B8DF00E5F863 /* MultiColorDonutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		67358A001DEF78AE00502447 /* BezierChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67358A041DEF78AE00502447 /* BezierChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierChartsUITests.swift; sourceTree = "<group>"; };
 		67358A061DEF78AE00502447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67358A121DEF79A300502447 /* DonutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutView.swift; sourceTree = "<group>"; };
+		676505571E0078B200E5F863 /* DonutSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutSlice.swift; sourceTree = "<group>"; };
+		676505961E00B8C300E5F863 /* SingleColorDonutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleColorDonutView.swift; sourceTree = "<group>"; };
+		676505981E00B8DF00E5F863 /* MultiColorDonutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiColorDonutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		673589E31DEF78AE00502447 /* BezierCharts */ = {
 			isa = PBXGroup;
 			children = (
+				676505951E00B8AF00E5F863 /* Donuts */,
 				673589E41DEF78AE00502447 /* AppDelegate.swift */,
 				673589E61DEF78AE00502447 /* ViewController.swift */,
 				673589E81DEF78AE00502447 /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				67358A061DEF78AE00502447 /* Info.plist */,
 			);
 			path = BezierChartsUITests;
+			sourceTree = "<group>";
+		};
+		676505951E00B8AF00E5F863 /* Donuts */ = {
+			isa = PBXGroup;
+			children = (
+				67358A121DEF79A300502447 /* DonutView.swift */,
+				676505571E0078B200E5F863 /* DonutSlice.swift */,
+				676505961E00B8C300E5F863 /* SingleColorDonutView.swift */,
+				676505981E00B8DF00E5F863 /* MultiColorDonutView.swift */,
+			);
+			name = Donuts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67358A131DEF79A300502447 /* DonutView.swift in Sources */,
+				676505991E00B8DF00E5F863 /* MultiColorDonutView.swift in Sources */,
+				676505581E0078B200E5F863 /* DonutSlice.swift in Sources */,
 				673589E71DEF78AE00502447 /* ViewController.swift in Sources */,
+				676505971E00B8C300E5F863 /* SingleColorDonutView.swift in Sources */,
 				673589E51DEF78AE00502447 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +536,7 @@
 				67358A0B1DEF78AE00502447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67358A0C1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +545,7 @@
 				67358A0E1DEF78AE00502447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67358A0F1DEF78AE00502447 /* Build configuration list for PBXNativeTarget "BezierChartsUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +554,7 @@
 				67358A111DEF78AE00502447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
